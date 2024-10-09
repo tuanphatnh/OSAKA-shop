@@ -1,0 +1,31 @@
+
+.cart-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#tb{
+    border: 5px orange solid;
+    border-radius: 10px;
+}
+
+.quantity-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+
+.quantity-btn:hover {
+    background-color: rgb(172, 156, 156);
+}
+
+.product-quantity {
+    text-align: center;
+    border: 1px solid;
+}
